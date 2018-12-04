@@ -68,3 +68,4 @@ print('index number of the element 25 in tuple is : '+str(tup.index(25))) # will
 set1 = {23,25,255,54,25,1}
 print(set1) # here it will not repeat the elemet "25"
 #code of date 4-12-2018
+#new commnet on git
