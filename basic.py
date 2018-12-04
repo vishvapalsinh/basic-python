@@ -9,7 +9,7 @@ print('Vishy\'s laptop is "Awsome" ') # we can use dash in string by '\' (forwar
 print(2 *  'Ram ' * 2)  # if we want to keep only one then we can keep It
 print('c:\docs\navin') # \n means new line 
 print(r'c:\user\navin') # This won't try to convert the \n into new line as we have used 'r' - Raw strin in the begining
-
+print('hello to git')
 x=10
 print (x+20)
 name = "Flower"
