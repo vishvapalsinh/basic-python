@@ -1,4 +1,7 @@
+###########################
 #date 3-12-2018
+###########################
+
 print(5/2) #Its a simple devision
 print (5//2) #Its intiger devison or floor devision 
 print(2*3)  # It represent multiplication
@@ -20,8 +23,12 @@ print(name[1:4]) #from 1 to 3 including excluding position 4
 # string in python is immutabel. I can just concate it or can use certain part of it
 print('Length of the string is ' +str(len(name))) # here we have made typecasting and concate the string with integer
 
-# concepts of List It is resembling to concepts of the array in the other language
-#List is mutable 
+
+##########################
+# #################concepts of List It is resembling to concepts of the array in the other language
+##################List is mutable 
+###########################
+
 num = [10,20,30,20,54,12]
 print(num[0]) # we can fetch the value at index position 0 
 print(num[-1]) # simmilarly as string it also work for the number from behind
@@ -45,16 +52,17 @@ print(num)
 num.extend([999,888,777]) # we can add multiple values in the list
 print(num)
 num.sort()
-print(num) # To sort the list but we can not sort the list contains string also 
+print(num) # We can sort the list but we can not sort the list contains string  
 # some inbuilt functions are ther for the list like
 print(min(num))
 print(max(num))
 print(sum(num))
 
-
+###########################
 # tuples in python 
 # it is simmilar to List but tuple is immutable and we use round bracs (  )
 # Iteration in the tuple is faster than the list as it is immutable 
+###########################
 print('\n Tuple in the python')
 tup = (23,25,35,65,95,25) # tuple in the python
 print(tup)
@@ -62,8 +70,11 @@ print(tup[1]) # here index fetch working same as list and string did
 print(tup.count(25)) # count will count the number of the occurance of the number
 print('index number of the element 25 in tuple is : '+str(tup.index(25))) # will give the index number of element 
 
+###########################
 # set in python
 # curly bracs use for the set { }
+# set is not mutable 
+###########################
 # Set is not sequence number as it use hash wich can enhance the computation
 set1 = {23,25,255,54,25,1}
 print(set1) # here it will not repeat the elemet "25"
