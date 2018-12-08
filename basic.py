@@ -1,6 +1,6 @@
 #date 3-12-2018
 print(5/2) #Its a simple devision
-print (5//2) #Its intiger devison or floar devision 
+print (5//2) #Its intiger devison or floor devision 
 print(2*3)  # It represent multiplication
 print(2**3) # It represent power of 2 raise 3
 print (10 % 3) # It is modulus of 10 by 3
