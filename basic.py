@@ -71,12 +71,72 @@ print(tup.count(25)) # count will count the number of the occurance of the numbe
 print('index number of the element 25 in tuple is : '+str(tup.index(25))) # will give the index number of element 
 
 ###########################
-# set in python
+# set in python collection of unique elements
 # curly bracs use for the set { }
-# set is not mutable 
+# set is immutable 
 ###########################
 # Set is not sequence number as it use hash wich can enhance the computation
 set1 = {23,25,255,54,25,1}
 print(set1) # here it will not repeat the elemet "25"
 #code of date 4-12-2018
 #new commnet on git
+
+# summery on set and list 
+# set is collection of unique elements, like in list if you repeat something 
+# i.e some number like 12 then it is repeated again, 
+# but in sets if you write 12 number 2 times then it will display only once, so this is 1st one. 
+# 2nd one is set is working on concept of hash, where list not working on concept of hash! 
+# 3rd one is in sets index number is not working, because sets can't maintain sequence, 
+# but list maintain sequence, eo index number is working in list! 
+# So these are some of difference between set and list! 
+
+
+#Date 11-12-2018
+num = 'navin'
+print(id(num)) # we can print the address of the num usning id function 
+a = 10
+b = a 
+print(id(a))
+print(id(b))   # see here we get the same address for both variable that is why python is more efficient in memory management
+# even for the following statement address will be the same 
+print(id('ram'))
+c = 'ram'
+print(id(c))
+# if any variable will not be used for the long time in the code then it will be in garbage collection 
+
+# Data types in python 
+# None,  Numeric, List, Tuple, Set, String, Range, Dictionary(Map)
+
+#None - Data type when we won't assign anything to variable it will be null here we won't use any thing to define null
+x
+print(x)
+
+#Numeric - Datatype have four subtypes 
+# 1. int 
+# 2. float 
+# 3. complex 
+# 4. Bool 
+inte = 1
+flo = 2.0
+comp = 2 + 3j
+a<b    # cause a and b both are the 10 so 10<10 will be false
+print (a<b)
+print(str(type(inte))+"  "+str(type(flo))+"  "+str(type(comp))+"  "+str(type(a<b)) )
+# we can make typecasting in python like below
+# newvarname =  datetype(oldvariable)  => so the new variable will be the type of data type we want 
+
+# List, Tuple, Set, String, Range ===> All this data types are come under Seuence term 
+lissss = [12,25,25,32,540]
+tupppp = (14,25,48,54)
+setttt = {14,25,25,144,18,98}
+stringggg = "Ram"
+rangeeeee = range(2,10,2) # range (starting, upto , difference ) ||| we can also just give upto and then it will count from 0th number
+print(list(rangeeeee))
+
+# Dictioanry (Map) --> key and value => {key1:value1 , key2:value2 , , , , }
+rollno = { '1':'Bharat', '2':'Nayan', '3':'Rahul', '4':'Kishan' }
+print(str(rollno.keys())) # we will get all the the keys of rollno Dictionary
+print(str(rollno.values())) # we will get all the values of rollno Dictionary
+print(str(rollno['1'])) # So here we are giving => dictionary_name['key'] for getting respective value
+# we can also use get function ===>  directory_name.get('key')
+
